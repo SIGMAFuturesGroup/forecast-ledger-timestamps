@@ -9,7 +9,7 @@ It holds the cryptographic timestamps for the SIGMA Forecast Ledger's frozen sna
 The SIGMA Forecast Ledger records probabilistic forecasts for active geopolitical flashpoints. Every entry is **pre-registered**: a full probability distribution over defined outcomes, an explicit resolution date, and an objective resolution criterion, all fixed *before* the outcome is known — and each is scored on resolution with a multi-category Brier score against a stated benchmark. The ledger is append-only; a revised view is a new dated entry, never an edit.
 
 - **Engine:** UCPF v2.7.5 (frozen)
-- **Latest snapshot:** 22 June 2026
+- **Latest snapshot:** 23 June 2026
 - **Method:** pre-registered · scored · benchmarked — see [sigmafutures.group](https://sigmafutures.group)
 
 ## The record
@@ -24,6 +24,8 @@ Each snapshot is an independent, self-contained freeze of the ledger, with its o
 | 19 Jun 2026 | `SIGMA-Forecast-Ledger-PUBLIC-20260619.xlsx` | `4301a71d542e75338915889ddea2ef0b94bcd5db13253a6b12347ba26d3e78d3` | `SIGMA-Forecast-Ledger-PUBLIC-20260619.xlsx.ots` |
 | 22 Jun 2026 | `SIGMA-Forecast-Ledger-PUBLIC-20260622.csv` | `ed0b079e981dc779e18a83156d72ef499426e99528e5d6a71ba4867eb8d8a061` | `SIGMA-Forecast-Ledger-PUBLIC-20260622.csv.ots` |
 | 22 Jun 2026 | `SIGMA-Forecast-Ledger-PUBLIC-20260622.xlsx` | `e089ef7b1c5dc8c17c318a1192e90b6c411617f4aa75533d3e54dbeafab368f9` | `SIGMA-Forecast-Ledger-PUBLIC-20260622.xlsx.ots` |
+| 23 Jun 2026 | `SIGMA-Forecast-Ledger-PUBLIC-20260623.csv` | `35457ded71b34c2a39ca5284dd8ad8abc48caf75e3311751f30ea701bb1aca79` | `SIGMA-Forecast-Ledger-PUBLIC-20260623.csv.ots` |
+| 23 Jun 2026 | `SIGMA-Forecast-Ledger-PUBLIC-20260623.xlsx` | `5be53258261b4e7559283d169db769c02c6dce940c1dfeaea551dd47c5ae386c` | `SIGMA-Forecast-Ledger-PUBLIC-20260623.xlsx.ots` |
 
 A SHA-256 is a content fingerprint: it depends only on a file's bytes, not its name, and changes completely if even one character changes. The `.ots` files are [OpenTimestamps](https://opentimestamps.org) proofs that anchor these fingerprints to a Bitcoin block.
 
